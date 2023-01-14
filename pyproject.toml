@@ -9,6 +9,11 @@ packages = [{include = "pyproject_template"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+fastapi = "^0.89.1"
+uvicorn = {extras = ["standard"], version = "^0.20.0"}
+sqlalchemy = "^1.4.46"
+passlib = "^1.7.4"
+bcrypt = "^4.0.1"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"

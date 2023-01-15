@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 
 from jose import JWTError, jwt
 
+# This is sample sectet key.
 SECRET_KEY = "d6d9fabf39dbd502cd3e9c1a2eeb5ba6e51e8ac93c4d5f6959c87d53748afdcd"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30

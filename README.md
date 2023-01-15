@@ -1,8 +1,8 @@
 # pyproject-template
 
-https://www.youtube.com/watch?v=7t2alSnE2-I&t=13861s
+Fastapi tutorial blog application.
 
-Python project template using poetry.
+https://www.youtube.com/watch?v=7t2alSnE2-I&t=13861s
 
 ## Installation
 
@@ -18,49 +18,12 @@ $ poetry install
 
 ## Basic usage
 
-Install the package and sub-dependencies.
+Run api server.
 
 ```
-$ poetry add pendulum
-$ poetry add -D pytest
+$ uvicorn blog.main:app --reload
 ```
 
-To run your script simply use `poetry run python your_script.py`.
+Open API docs.
 
-```
-$ poetry run pytest
-```
-
-```
-$ poetry run python -m pyproject_template
-```
-
-## Commands
-
-If you want to exclude one or more dependency groups for the installation, you can use the `--without` option.
-
-```
-$ poetry install --without dev
-```
-
-In order to get the latest versions of the dependencies and to update the `poetry.lock` file, you should use the `update` command.
-
-```
-$ poetry update
-```
-
-The `remove` command removes a package from the current list of installed packages.
-
-```
-$ poetry remove pendulum
-```
-
-This command exports the lock file to other formats.
-
-```
-$ poetry export -f requirements.txt --output requirements.txt
-```
-
-## References
-
-- https://python-poetry.org/
+http://127.0.0.1:8000/docs

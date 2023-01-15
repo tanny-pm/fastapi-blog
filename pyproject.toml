@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "pyproject-template"
-version = "0.1.0"
-description = "Python project template using poetry."
+name = "fastapi-blog"
+version = "1.0.0"
+description = "Fastapi tutorial blog application."
 authors = ["Your Name <you@example.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "pyproject_template"}]
+packages = [{include = "blog"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"

@@ -1,4 +1,4 @@
-# pyproject-template
+# FastAPI Blog
 
 Fastapi tutorial blog application.
 
